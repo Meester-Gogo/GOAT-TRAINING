@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark theme is the app's only theme; tell the browser so native controls
+   (date picker, selects, range thumbs) render legibly instead of light-on-dark. */
+:root { color-scheme: dark; }
+html, body, #root { min-height: 100%; background-color: #0c0a09; }
+
+/* Respect the iPhone notch / home indicator when installed to the home screen. */
+body { padding-bottom: env(safe-area-inset-bottom); }

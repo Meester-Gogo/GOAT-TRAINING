@@ -1,0 +1,10 @@
+{
+  "name": "GOAT Trail",
+  "short_name": "GOAT Trail",
+  "description": "Générateur de plan d'entraînement trail et ultra",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0c0a09",
+  "theme_color": "#0c0a09",
+  "icons": []
+}
